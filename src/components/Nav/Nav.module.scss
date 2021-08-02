@@ -1,0 +1,43 @@
+.header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(255, 0, 0);
+    box-shadow: 0 0 15px rgb(218, 16, 76);
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 40px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(22, 20, 20, 0.849);
+        .Logo{
+            list-style: none;
+            cursor: pointer;
+            img{
+                width: 120px;
+                cursor: pointer;
+            }
+        }
+        .rightContents{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            li{
+                .signOut{
+                    font-size: 25px;
+                    color: rgb(218, 16, 76);
+                    padding: 5px;
+                    border: 1px solid #f4bf02;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

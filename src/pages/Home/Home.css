@@ -1,0 +1,54 @@
+.paginationBttns {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationBttns a {
+    padding: 2px 5px;
+    margin: 0 3px;
+    /* border-radius: 5px; */
+    border: 1px solid #353536;
+    color: #2b2eff;
+    cursor: pointer;
+}
+
+.paginationBttns a:hover {
+    color: white;
+    background-color: #2b2eff;
+}
+
+.paginationActive a {
+    color: white;
+    background-color: #2b2eff;
+}
+
+.paginationDisabled a {
+    color: #fff;
+    background-color: rgba(0, 17, 255, 0.555);
+}
+
+.autocomplete{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 111;
+    max-height: 240px;
+    height: auto;
+    overflow: auto;
+}
+
+.autocomplete__item{
+    padding: 10px;
+}
+
+.autocomplete__item:hover{
+    background: rgb(180, 180, 180);
+    cursor: pointer;
+    transition: cubic-bezier(1, 0, 0, 1) .3s all;
+}
